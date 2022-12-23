@@ -1,0 +1,1 @@
+A replicated key-value store with built-in persistence and fault tolerance using untyped Akka Actors. The write requests are only handled by the primary node, however they are replicated and persisted across the secondary nodes. The database only supports String key and value types
